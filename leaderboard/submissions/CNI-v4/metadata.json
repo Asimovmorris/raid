@@ -1,9 +1,10 @@
 {
   "detector_name": "CNI v4 — Cognitive Negligence Index",
   "contact_info": "Alan Crawley",
+  "date_released": "2025-05-21",
   "website": "",
   "paper_link": "",
   "huggingface_link": "",
   "github_link": "",
-  "additional_metadata": "Etiological detector based on Ginzburg's indicial paradigm. Detects presence of a human writing process rather than stylometric similarity to AI output. 18 cognitive process features derived from psycholinguistics and information theory. Trained on corpus_v4: PAN 2025 Task 2, artnitolog, adversarially humanized AI texts, and RAID train supplement. XGBoost classifier, no neural backbone. Zero-shot on RAID test set. In-distribution: AUC 0.923, humanized AI recall 90.0% vs perplexity baseline 48.5% (41.5pp gap)."
+  "additional_metadata": "Etiological detector based on Ginzburg's indicial paradigm. 18 cognitive process features. XGBoost classifier. No neural backbone. Zero-shot on RAID."
 }
